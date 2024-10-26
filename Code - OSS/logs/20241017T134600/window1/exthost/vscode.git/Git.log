@@ -1,0 +1,29 @@
+2024-10-17 13:46:11.183 [info] [main] Log level: Info
+2024-10-17 13:46:11.183 [info] [main] Validating found git in: "git"
+2024-10-17 13:46:11.183 [info] [main] Using git "2.46.2" from "git"
+2024-10-17 13:46:11.183 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-17 13:46:11.234 [info] > git rev-parse --show-toplevel [134ms]
+2024-10-17 13:46:11.527 [info] > git rev-parse --git-dir --git-common-dir [104ms]
+2024-10-17 13:46:11.566 [info] [Model][openRepository] Opened repository: /home/kasene/sprig
+2024-10-17 13:46:11.817 [info] > git rev-parse --show-toplevel [44ms]
+2024-10-17 13:46:11.858 [info] > git config --get commit.template [142ms]
+2024-10-17 13:46:12.179 [info] > git rev-parse --show-toplevel [85ms]
+2024-10-17 13:46:12.301 [info] > git check-ignore -v -z --stdin [167ms]
+2024-10-17 13:46:12.318 [info] > git rev-parse --show-toplevel [31ms]
+2024-10-17 13:46:12.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [338ms]
+2024-10-17 13:46:12.450 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kasene/sprig/.git/refs/remotes/origin/main'
+2024-10-17 13:46:12.451 [info] > git rev-parse --show-toplevel [73ms]
+2024-10-17 13:46:12.493 [info] > git rev-parse refs/remotes/origin/main [44ms]
+2024-10-17 13:46:12.547 [info] > git rev-parse --show-toplevel [56ms]
+2024-10-17 13:46:12.570 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-17 13:46:12.620 [info] > git rev-parse --show-toplevel [12ms]
+2024-10-17 13:46:12.698 [info] > git rev-parse --show-toplevel [16ms]
+2024-10-17 13:46:12.810 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-17 13:46:13.042 [info] > git rev-parse --show-toplevel [27ms]
+2024-10-17 13:46:13.163 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-17 13:46:13.427 [info] > git rev-parse --show-toplevel [117ms]
+2024-10-17 13:46:13.563 [info] > git rev-parse --show-toplevel [17ms]
+2024-10-17 13:46:13.609 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-17 13:46:13.695 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-17 13:46:13.767 [info] > git rev-parse --show-toplevel [11ms]
+2024-10-17 13:46:13.773 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)

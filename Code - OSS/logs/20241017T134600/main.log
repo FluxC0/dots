@@ -1,0 +1,18 @@
+2024-10-17 13:46:00.557 [info] update#setState disabled
+2024-10-17 13:46:00.570 [info] update#ctor - updates are disabled as there is no update URL
+2024-10-17 13:46:14.413 [info] Extension host with pid 20693 exited with code: 0, signal: unknown.
+2024-10-17 13:46:14.572 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072277852000, signal: unknown
+2024-10-17 13:46:51.003 [info] Extension host with pid 21146 exited with code: 0, signal: unknown.
+2024-10-17 13:46:51.072 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072277852000, signal: unknown
+2024-10-18 08:18:41.132 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-18 08:18:47.033 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072277852000, signal: unknown
+2024-10-18 08:18:48.239 [info] Extension host with pid 22207 exited with code: 0, signal: unknown.
+2024-10-18 08:57:18.346 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-18 08:58:59.303 [info] Extension host with pid 233014 exited with code: 0, signal: unknown.
+2024-10-18 08:58:59.414 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072266742000, signal: unknown
+2024-10-18 09:18:33.532 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-18 10:02:52.160 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-18 10:43:43.869 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-18 10:44:21.896 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-18 11:01:11.894 [info] Extension host with pid 246860 exited with code: 0, signal: unknown.
+2024-10-18 11:01:11.910 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072266742000, signal: unknown

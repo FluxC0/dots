@@ -1,0 +1,67 @@
+2024-10-16 13:18:55.993 [info] Started local extension host with pid 115399.
+2024-10-16 13:19:03.743 [info] [perf] Render performance baseline is 77ms
+2024-10-16 13:19:13.216 [error] [Extension Host] (node:115399) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-10-16 13:23:50.746 [info] Started local extension host with pid 121752.
+2024-10-16 13:24:02.008 [info] [perf] Render performance baseline is 180ms
+2024-10-16 13:24:07.489 [error] Failed to fetch: Failed: Failed to fetch
+    at ie.E (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:826:40098)
+    at async ie.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:826:36801)
+    at async ie.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:826:33282)
+    at async ie.getExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:826:32380)
+    at async se.getExtensions (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2752:16142)
+    at async E.P (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2674:38179)
+    at async E.G (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2674:34594)
+    at async E.promptWorkspaceRecommendations (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2674:33337)
+    at async E.O (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2119:32847)
+2024-10-16 13:33:37.125 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /usr/bin/wakatime-cli --entity /home/kasene/sprig/games/worthless_clicker.js --plugin "vscode/1.93.1 vscode-wakatime/24.2.0" --lineno 2 --cursorpos 15 --lines-in-file 12 --alternate-project sprig --project-folder /home/kasene/sprig
+
+2024-10-16 13:40:31.134 [info] Extension host (LocalProcess pid: 121752) is unresponsive.
+2024-10-16 13:40:33.783 [info] Extension host (LocalProcess pid: 121752) is responsive.
+2024-10-16 13:40:34.013 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-10-16 13:40:41.170 [info] Extension host (LocalProcess pid: 121752) is unresponsive.
+2024-10-16 13:40:43.349 [info] Extension host (LocalProcess pid: 121752) is responsive.
+2024-10-16 13:40:43.350 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-10-16 13:40:44.015 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-10-16 13:40:47.687 [info] Extension host (LocalProcess pid: 121752) is unresponsive.
+2024-10-16 13:40:47.688 [info] Extension host (LocalProcess pid: 121752) is responsive.
+2024-10-16 13:40:47.688 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-10-16 13:41:00.401 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-10-16 14:17:36.181 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /usr/bin/wakatime-cli --entity /home/kasene/sprig/games/Womens_roles_during_wartime.js --plugin "vscode/1.93.1 vscode-wakatime/24.2.0" --lineno 1 --cursorpos 1 --lines-in-file 391 --alternate-project sprig --project-folder /home/kasene/sprig
+
+2024-10-16 14:17:56.046 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /usr/bin/wakatime-cli --entity /home/kasene/sprig/games/Womens_roles_during_wartime.js --plugin "vscode/1.93.1 vscode-wakatime/24.2.0" --lineno 3 --cursorpos 16 --lines-in-file 391 --alternate-project sprig --project-folder /home/kasene/sprig
+
+2024-10-16 14:45:07.302 [error] Error: file:///home/kasene/sprig/jail/worthless_clicker.js has changed in the meantime
+    at h.q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:839:9180)
+    at h.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:839:10039)
+    at m.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2466:25048)
+    at m.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2466:24507)
+    at E.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2466:26286)
+    at g.$tryApplyWorkspaceEdit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1803:17671)
+    at E.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1767:14705)
+    at E.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1767:14471)
+    at E.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1767:13504)
+    at E.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1767:12560)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1767:11034)
+    at l.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:100:732)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:100:949)
+    at n.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:631:14809)
+    at K.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1783:8206)
+2024-10-16 14:45:07.366 [warning] IGNORING workspace edit: Error: file:///home/kasene/sprig/jail/worthless_clicker.js has changed in the meantime
+2024-10-16 14:45:11.712 [error] Error: file:///home/kasene/sprig/jail/worthless_clicker.js has changed in the meantime
+    at h.q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:839:9180)
+    at h.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:839:10039)
+    at m.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2466:25048)
+    at m.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2466:24507)
+    at E.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2466:26286)
+    at g.$tryApplyWorkspaceEdit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1803:17671)
+    at E.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1767:14705)
+    at E.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1767:14471)
+    at E.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1767:13504)
+    at E.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1767:12560)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1767:11034)
+    at l.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:100:732)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:100:949)
+    at n.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:631:14809)
+    at K.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1783:8206)
+2024-10-16 14:45:11.713 [warning] IGNORING workspace edit: Error: file:///home/kasene/sprig/jail/worthless_clicker.js has changed in the meantime

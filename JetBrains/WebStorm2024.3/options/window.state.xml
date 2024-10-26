@@ -1,0 +1,10 @@
+<application>
+  <component name="DimensionService">
+    <location key="REMOTE_DEVELOPMENT_CONNECTION.0.0.1920.1080" x="555" y="218" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1838" height="301" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1838" height="301" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1838" height="301" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1838" height="301" />
+    <size key="REMOTE_DEVELOPMENT_CONNECTION.0.0.1920.1080" width="810" height="687" />
+  </component>
+</application>

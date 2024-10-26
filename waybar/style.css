@@ -1,0 +1,238 @@
+* {
+	border: none;
+  font-family: "JetBrainsMono Nerd Font" ;
+	font-size: 12px;
+	min-height: 10px;
+}
+
+window#waybar {
+	background: transparent;
+}
+
+window#waybar.hidden {
+	opacity: 0.1;
+}
+
+#window {
+	transition: none;
+  color: transparent;
+	background: #7f849c;
+}
+#tags {
+  border: 5px solid ;
+	font-size: 12px;
+	margin-bottom: 0px;
+	background: rgba(0, 0, 0, 0.8);
+	transition: none;
+  border-radius: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#tags button {
+	transition: none;
+	color: #A6E3A1;
+	background: transparent;
+	font-size: 12px;
+}
+
+#tags button.occupied {
+	transition: none;
+	color: #F38BA8;
+	background: transparent;
+	font-size: 12px;
+}
+
+#tags button.focused {
+	color: #000000;
+  background-color: #F38BA8;
+  border-radius: 0px;
+}
+
+#tags button:hover {
+	transition: none;
+	box-shadow: inherit;
+	text-shadow: inherit;
+  color: #F38BA8;
+}
+
+#network {
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+	color: #000000;
+	background: #F9E2AF;
+  border-radius: 15px;
+}
+
+#pulseaudio {
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+	color: #000000;
+	background: #F5C2E7;
+  border-radius: 15px;
+}
+  
+#battery {
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+	color: #F38Ba8;
+	background: #313244;
+  border: 5px solid; 
+  border-radius: 15px;
+}
+
+#battery.charging, #battery.plugged {
+	color: #000000;
+  background-color: #A6E3A1;
+}
+
+#battery.critical:not(.charging) {
+  background-color: #A6E3A1;
+  color: #000000;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  to {
+    background-color: #BF616A;
+    color: #A6E3A1;
+  }
+}
+
+#backlight {
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+	color: #89B4fA;
+	background: #313244;
+  border: 5px solid #45475a;
+  border-radius: 15px;
+}
+
+#clock {
+	
+  padding-left: 10px;
+  padding-right: 10px;
+	
+	margin-bottom: 0px;
+	transition: none;
+	color: #89B4FA;
+	background: #313244;
+  border: 5px solid #45475a;
+  border-radius: 15px;
+}
+
+#calendar {
+  margin-left: 8px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  transition: none;
+  color: #BAC2DE;
+  background: #313244;
+  border: 5px solid #45475a;
+  border-radius: 15px;
+}
+
+#memory {
+	margin-left: 8px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	transition: none;
+	color: #A6E3A1;
+	background: #313244;
+  border: 5px solid #45475a;
+  border-radius: 15px;
+}
+
+#cpu {
+	margin-left: 8px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	transition: none;
+	color: #F38BA8;
+	background: #313244;
+  border: 5px solid #45475a;
+  border-radius: 15px;
+}
+
+#tray {
+	margin-left: 8px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+	transition: none;
+	color: #A6E3A1;
+	background: #313244;
+  border-radius: 15px;
+  border: 5px solid #45475a;
+}
+
+#custom-launcher {
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 5px;
+	transition: none;
+  color: #FFFFFF;
+  border: 5px solid #45475a;
+  border-radius: 15px;
+  background: #313244;
+}
+
+#custom-power {
+	font-size: 14px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 5px;
+	margin-bottom: 0px;
+	transition: none;
+	color: #F38BA8;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#custom-wallpaper {
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+	color: #000000;
+	background: #C9CBFF;
+}
+
+#custom-updates {
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+	color: #000000;
+	background: #E8A2AF;
+}
+
+#custom-media {
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+	color: #000000;
+	background: #89B4FA;
+}

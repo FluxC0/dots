@@ -1,0 +1,32 @@
+2024-10-16 13:02:22.986 [info] [main] Log level: Info
+2024-10-16 13:02:22.990 [info] [main] Validating found git in: "git"
+2024-10-16 13:02:23.240 [info] [main] Using git "2.46.2" from "git"
+2024-10-16 13:02:23.240 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-16 13:02:25.156 [info] > git rev-parse --show-toplevel [1877ms]
+2024-10-16 13:02:25.235 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-10-16 13:02:25.266 [info] [Model][openRepository] Opened repository: /home/kasene/W4SH
+2024-10-16 13:02:25.296 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-16 13:02:25.297 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-16 13:02:25.298 [info] > git config --get commit.template [19ms]
+2024-10-16 13:02:25.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [124ms]
+2024-10-16 13:02:25.439 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kasene/W4SH/.git/refs/remotes/origin/main'
+2024-10-16 13:02:25.442 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-16 13:02:25.621 [info] > git status -z -uall [101ms]
+2024-10-16 13:02:25.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2024-10-16 13:02:25.683 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-10-16 13:02:25.701 [info] > git config --get commit.template [39ms]
+2024-10-16 13:02:25.711 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [12ms]
+2024-10-16 13:02:26.051 [info] > git merge-base refs/heads/main refs/remotes/origin/main [331ms]
+2024-10-16 13:02:26.088 [info] > git check-ignore -v -z --stdin [12ms]
+2024-10-16 13:02:26.090 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [26ms]
+2024-10-16 13:02:26.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [119ms]
+2024-10-16 13:02:26.115 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/kasene/W4SH/.git/refs/remotes/origin/main'
+2024-10-16 13:02:26.117 [info] > git diff --name-status -z --diff-filter=ADMR 093c28ef68c1a4190d9a19f1e887992a1318c934...refs/remotes/origin/main [14ms]
+2024-10-16 13:02:26.120 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-10-16 13:02:26.136 [info] > git status -z -uall [4ms]
+2024-10-16 13:02:26.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-16 13:02:26.220 [info] > git show --textconv :main.c [13ms]
+2024-10-16 13:02:26.224 [info] > git config --local branch.main.vscode-merge-base [56ms]
+2024-10-16 13:02:26.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-10-16 13:02:26.239 [info] > git ls-files --stage -- /home/kasene/W4SH/main.c [22ms]
+2024-10-16 13:02:26.252 [info] > git cat-file -s 7a0ab4c350f6a9430074e0bbeebc84ecbb1bbb7c [4ms]

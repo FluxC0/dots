@@ -1,0 +1,46 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="EditorBackSpace">
+      <i c="25" l="1727712401491" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="2" l="1727712405845" />
+    </e>
+    <e n="EditorEnter">
+      <i c="7" l="1727712398904" />
+    </e>
+    <e n="EditorRight">
+      <i c="4" l="1727712383974" />
+    </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="1" l="1727712386734" />
+    </e>
+    <e n="NewProject">
+      <i c="1" l="1727712838823" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1727712833510" />
+    </e>
+    <e n="OpenRemoteDevelopment">
+      <i c="1" l="1727712846509" />
+    </e>
+    <e n="Run">
+      <i c="4" l="1727712407795" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="1" l="1727712100906" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1727712843032" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$6">
+      <i c="1" l="1727711742740" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1727711854677" />
+    </e>
+    <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
+      <i c="1" l="1727711753682" />
+    </e>
+  </component>
+</application>

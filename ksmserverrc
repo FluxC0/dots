@@ -1,0 +1,26 @@
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=1014ff3d6c6000172987118600000009500005
+clientId2=1014ff3d6c6000172987118700000009500006
+clientId3=1014ff3d6c6000172987118800000009500007
+clientId4=1014ff3d6c6000172987181900000009500008
+count=4
+discardCommand3[$e]=rm,$HOME/.config/session/systemsettings_1014ff3d6c6000172987118800000009500007_1729881439_218019
+program1=/usr/lib/DiscoverNotifier
+program2=/usr/bin/firewall-applet
+program3=/sbin/systemsettings
+program4=firefox
+restartCommand1=/usr/lib/DiscoverNotifier,-session,1014ff3d6c6000172987118600000009500005_1729881439_197926
+restartCommand2=/usr/bin/firewall-applet,-session,1014ff3d6c6000172987118700000009500006_1729881439_216246,-name,firewall-applet
+restartCommand3=/sbin/systemsettings,-session,1014ff3d6c6000172987118800000009500007_1729881439_218019
+restartCommand4=/usr/lib/firefox/firefox,--sm-client-id,1014ff3d6c6000172987181900000009500008
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=kasene
+userId2=kasene
+userId3=kasene
+userId4=kasene

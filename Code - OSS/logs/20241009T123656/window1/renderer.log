@@ -1,0 +1,6 @@
+2024-10-09 12:37:01.753 [info] Started local extension host with pid 16982.
+2024-10-09 12:37:08.608 [info] [perf] Render performance baseline is 119ms
+2024-10-09 13:02:43.253 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/kasene/pystuff/lowskies/basilFetch/main.py 
+2024-10-09 13:02:46.207 [info] Started local extension host with pid 21480.
+2024-10-09 13:02:51.001 [info] [perf] Render performance baseline is 55ms
+2024-10-09 21:56:11.209 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage

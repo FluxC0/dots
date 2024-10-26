@@ -1,0 +1,11 @@
+[2024-10-25 10:46:40.171][verbose] Tunnel state: connected
+[2024-10-25 10:46:40.180][verbose] Initial: Wrong content height: 596, expected 568
+[2024-10-25 10:46:40.568][verbose] Map canvas scale factor: 1, using: 1
+[2024-10-25 13:37:05.406][verbose] Tunnel state: error
+[2024-10-25 13:37:06.067][verbose] Tunnel state: error
+[2024-10-25 13:37:07.221][verbose] Map canvas scale factor: 1, using: 1
+[2024-10-25 13:37:08.628][verbose] Tunnel state: connecting
+[2024-10-25 13:37:08.714][verbose] Tunnel state: connecting
+[2024-10-25 13:37:16.693][verbose] Tunnel state: connecting
+[2024-10-25 13:37:16.736][verbose] Tunnel state: connecting
+[2024-10-25 13:37:16.752][verbose] Tunnel state: connecting

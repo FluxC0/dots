@@ -1,0 +1,5 @@
+2024-10-10 11:13:06.962 [info] Started local extension host with pid 36018.
+2024-10-10 11:13:14.617 [info] [perf] Render performance baseline is 139ms
+2024-10-10 11:13:29.301 [warning] Creation of workbench contribution 'workbench.contrib.cellInfoContentProvider' took 24ms.
+2024-10-10 11:13:29.712 [info] Started local extension host with pid 36173.
+2024-10-10 11:13:33.433 [info] [perf] Render performance baseline is 176ms

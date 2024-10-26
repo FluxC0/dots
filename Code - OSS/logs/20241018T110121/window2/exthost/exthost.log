@@ -1,0 +1,155 @@
+2024-10-18 11:01:34.096 [info] Extension host with pid 345524 started
+2024-10-18 11:01:34.508 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-18 11:01:34.517 [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime, startup: true, activationEvent: '*'
+2024-10-18 11:01:34.620 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-18 11:01:34.745 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-18 11:01:34.873 [info] Eager extensions activated
+2024-10-18 11:01:34.966 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 11:01:34.974 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 11:01:34.988 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 11:01:35.013 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 11:02:01.751 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-18 11:02:01.763 [info] Extension host with pid 345524 exiting with code 0
+2024-10-18 11:02:05.185 [info] Extension host with pid 345902 started
+2024-10-18 11:02:05.185 [info] Skipping acquiring lock for /home/kasene/.config/Code - OSS/User/workspaceStorage/7eca5eeeaf5417819d1784dc8457fd2b.
+2024-10-18 11:02:05.240 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-18 11:02:05.249 [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime, startup: true, activationEvent: '*'
+2024-10-18 11:02:05.476 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-18 11:02:05.570 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-18 11:02:05.725 [info] Eager extensions activated
+2024-10-18 11:02:05.861 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 11:02:05.869 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 11:02:05.898 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 11:02:05.959 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-10-18 11:02:46.944 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-18 11:02:48.194 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941737)
+2024-10-18 11:02:48.237 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941737)
+2024-10-18 11:03:58.168 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-10-18 11:04:05.606 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941737)
+2024-10-18 11:04:10.646 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941737)
+2024-10-18 11:07:10.320 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941737)
+2024-10-18 11:08:06.454 [error] Error: No such branch: master.
+	at N.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:937115)
+	at async T.retryRun (/usr/lib/code/extensions/git/dist/main.js:2:1032816)
+	at async T.run (/usr/lib/code/extensions/git/dist/main.js:2:1032420)
+	at async T.getBranch (/usr/lib/code/extensions/git/dist/main.js:2:1020563)
+	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020849)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948410)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941737)
+2024-10-18 11:08:20.128 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-18 11:08:29.800 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-18 11:08:29.814 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-18 11:08:29.861 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-18 14:47:26.746 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-18 14:47:27.019 [error] Canceled: Canceled
+	at new D (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:35235)
+	at y.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:6005)
+	at V.<computed>.F.charCodeAt.A.CharCode.DollarSign.V.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:3107)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210015)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at C.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:208777)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210554)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209546)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:30683)
+	at i.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:952009)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:802)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:1018)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972587)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978709
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978695)
+	at o.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4176)
+	at o.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at o.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:954307)
+	at o.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:13607
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11463)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:10282)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:6805)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-18 14:47:27.038 [error] Canceled: Canceled
+	at new D (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:151:35235)
+	at y.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:6005)
+	at V.<computed>.F.charCodeAt.A.CharCode.DollarSign.V.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:3107)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210015)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at C.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:208777)
+	at h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:210554)
+	at h.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209546)
+	at h.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:161:209453)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:30683)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:322969)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323928
+	at i.value (/usr/lib/code/extensions/git/dist/main.js:2:1060944)
+	at r.B (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:732)
+	at r.C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:802)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:1018)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:972587)
+	at /usr/lib/code/extensions/git/dist/main.js:2:978709
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/lib/code/extensions/git/dist/main.js:2:978695)
+	at o.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4176)
+	at o.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at o.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:954307)
+	at o.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:159:4273)
+	at $ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:13607
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+	at Object.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:11:11463)
+	at m.eb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:10282)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8153
+	at Array.map (<anonymous>)
+	at m.$ (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8140)
+	at m.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:167:8413)
+	at $.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:184:6805)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2619) setContext undefined
+2024-10-18 14:47:27.050 [info] Extension host with pid 345902 exiting with code 0

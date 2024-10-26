@@ -1,0 +1,16 @@
+2024-10-18 11:01:31.615 [info] Started local extension host with pid 345524.
+2024-10-18 11:01:35.957 [info] [perf] Render performance baseline is 65ms
+2024-10-18 11:02:03.886 [info] Started local extension host with pid 345902.
+2024-10-18 11:02:06.985 [info] [perf] Render performance baseline is 64ms
+2024-10-18 12:01:45.628 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /usr/bin/wakatime-cli --entity /home/kasene/F4TCH-RS/F4TCH/src/main.rs --plugin "vscode/1.93.1 vscode-wakatime/24.2.0" --lineno 14 --cursorpos 19 --lines-in-file 23 --alternate-project F4TCH-RS --project-folder /home/kasene/F4TCH-RS
+
+2024-10-18 12:01:49.842 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /usr/bin/wakatime-cli --entity /home/kasene/F4TCH-RS/F4TCH/src/main.rs --plugin "vscode/1.93.1 vscode-wakatime/24.2.0" --lineno 14 --cursorpos 26 --lines-in-file 23 --alternate-project F4TCH-RS --project-folder /home/kasene/F4TCH-RS --write
+
+2024-10-18 12:02:09.760 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /usr/bin/wakatime-cli --entity /home/kasene/F4TCH-RS/F4TCH/src/main.rs --plugin "vscode/1.93.1 vscode-wakatime/24.2.0" --lineno 14 --cursorpos 21 --lines-in-file 23 --alternate-project F4TCH-RS --project-folder /home/kasene/F4TCH-RS --write
+
+2024-10-18 12:17:40.785 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /usr/bin/wakatime-cli --entity /home/kasene/F4TCH-RS/F4TCH/src/main.rs --plugin "vscode/1.93.1 vscode-wakatime/24.2.0" --lineno 14 --cursorpos 26 --lines-in-file 23 --alternate-project F4TCH-RS --project-folder /home/kasene/F4TCH-RS
+
+2024-10-18 12:17:44.407 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /usr/bin/wakatime-cli --entity /home/kasene/F4TCH-RS/F4TCH/src/main.rs --plugin "vscode/1.93.1 vscode-wakatime/24.2.0" --lineno 14 --cursorpos 26 --lines-in-file 23 --alternate-project F4TCH-RS --project-folder /home/kasene/F4TCH-RS --write
+
+2024-10-18 12:19:53.531 [error] [Extension Host] [WakaTime][ERROR] Error: Command failed: /usr/bin/wakatime-cli --entity /home/kasene/F4TCH-RS/F4TCH/src/main.rs --plugin "vscode/1.93.1 vscode-wakatime/24.2.0" --lineno 8 --cursorpos 1 --lines-in-file 23 --alternate-project F4TCH-RS --project-folder /home/kasene/F4TCH-RS
+

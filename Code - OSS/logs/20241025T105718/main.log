@@ -1,0 +1,5 @@
+2024-10-25 10:57:18.686 [info] update#setState disabled
+2024-10-25 10:57:18.709 [info] update#ctor - updates are disabled as there is no update URL
+2024-10-25 10:58:41.379 [info] Extension host with pid 2551 exited with code: 0, signal: unknown.
+2024-10-25 10:58:41.632 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072277895000, signal: unknown
+2024-10-25 13:37:04.796 [warning] No ptyHost heartbeat after 6 seconds

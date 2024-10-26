@@ -1,0 +1,16 @@
+2024-10-10 11:20:15.354 [info] Getting Manifest... yandeu.five-server
+2024-10-10 11:20:15.705 [info] Installing extension: yandeu.five-server {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json","path":"/home/kasene/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.1","date":"2024-09-13T07:34:01.258Z"}}
+2024-10-10 11:20:18.905 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+2024-10-10 11:20:18.909 [info] Extension signature verification is not done: yandeu.five-server
+2024-10-10 11:20:21.324 [info] Extracted extension to file:///home/kasene/.vscode-oss/extensions/yandeu.five-server-0.3.1-universal: yandeu.five-server
+2024-10-10 11:20:21.558 [info] Renamed to /home/kasene/.vscode-oss/extensions/yandeu.five-server-0.3.1-universal
+2024-10-10 11:20:21.649 [info] Extension installed successfully: yandeu.five-server vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json
+2024-10-10 11:20:22.084 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)

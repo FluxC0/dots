@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "basilfetch"
+version = "0.1.0"
+description = "A fetch, written in python by Basil Engel! (formally known as Kasen)"
+authors = ["Basil Engel"]
+license = "GPLv3"
+readme = "README.md"
+package-mode = false
+[tool.poetry.dependencies]
+python = "^3.12"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

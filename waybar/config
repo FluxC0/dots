@@ -1,0 +1,94 @@
+{
+	"layer": "top",
+  "position": "bottom",
+  "margin-bottom": 12,
+  "margin-left": 12,
+  "margin-right": 12,
+
+	"modules-left": ["custom/launcher","river/tags", "memory","tray","network","backlight"],
+	"modules-center": ["clock"],
+	"modules-right": ["pulseaudio", "clock#date","battery","custom/power"],
+	
+	"pulseaudio": {
+		"tooltip": false,
+		"scroll-step": 5,
+		"format": "{icon} {volume}%",
+		"format-muted": "󰝟 {volume}%",
+		"on-click":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
+		"format-icons": {
+			"default": ["", "", ""]
+		}
+	},
+  "river/tags": {
+		"num-tags": 5
+  },
+	"network": {
+		// "tooltip": false,
+		"format-wifi": "  {essid}",
+		"format-ethernet": "󰈀 {ipaddr}",
+    "tooltip-format": " {ifname} via {gwaddr}",
+    "format-linked": " {ifname} (No IP)",
+    "format-disconnected": " Disconnected",
+    "format-alt": " {ifname}: {ipaddr}/{cidr}",
+    "on-click": "nmtui"
+	},
+	"backlight": {
+		"tooltip": false,
+		"format": " {}%",
+		"interval":1,
+        "on-scroll-up": "light -A 5",
+		"on-scroll-down": "light -U 5"
+	},
+  "battery": {
+    "states": {
+      "full": 100,
+      "good" : 95,
+      "ninety" : 90,
+      "eighty" : 80,
+      "seventy" : 70,
+      "sixty" : 60,
+      "fifty" : 50,
+      "forty" : 40,
+      "thirty" : 30,
+      "warning": 20,
+      "critical": 10,
+      "urgent" : 5,
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
+    "format-plugged": "󰂄 {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "interval": 1
+  },
+	"tray":{
+		"icon-size":20,
+		"spacing": 10
+	},
+  "clock": {
+    "format": " {:%I:%M:%S %p}",
+    "interval": 1,
+  },
+  "clock#date": {
+    "format": " {:%m/%d/%Y}"
+  },
+  "cpu": {
+    "interval": 15,
+    "format": "󰍛 {}%",
+    "max-length": 10
+  },
+  "memory": {
+    "interval": 30,
+    "format": " {}%",
+    "max-length": 10
+  },
+  "custom/launcher":{
+    "format": " ",
+    "on-click": "wofi --show drun",
+    "on-click-right": "killall wofi"
+  },
+  "custom/power":{
+    "format": "󰗼 ",
+    "on-click": "bash ~/.config/wofi/leave/leave.sh",
+  }
+}

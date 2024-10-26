@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "zig.path": "zig",
+    "zig.zls.path": "zls",
+    "zig.initialSetupDone": true,
+    "[zig]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ziglang.vscode-zig",
+        "files.eol": "\n"
+    },
+    "git.autofetch": true
+}

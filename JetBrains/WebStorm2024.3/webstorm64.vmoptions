@@ -1,0 +1,4 @@
+-Xmx2048m
+-Dide.managed.by.toolbox=/home/kasene/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox
+-Dtoolbox.notification.token=c47566ad-27b2-4209-aec4-1c5dd2c1c9dc
+-Dtoolbox.notification.portFile=/home/kasene/.cache/JetBrains/Toolbox/ports/9c85dc5b-8584-4439-9536-e038b655698e.port

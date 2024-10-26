@@ -1,0 +1,158 @@
+2024-10-09 12:37:10.082 [info] [main] Log level: Info
+2024-10-09 12:37:10.082 [info] [main] Validating found git in: "git"
+2024-10-09 12:37:10.082 [info] [main] Using git "2.46.2" from "git"
+2024-10-09 12:37:10.082 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-09 12:37:10.082 [info] > git rev-parse --show-toplevel [12ms]
+2024-10-09 12:37:10.082 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-09 12:37:10.082 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-09 12:37:10.082 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-09 12:37:10.083 [info] > git rev-parse --show-toplevel [16ms]
+2024-10-09 12:37:10.083 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-09 12:37:10.084 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-09 12:37:11.233 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-09 12:37:11.233 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-09 12:42:47.412 [info] > git rev-parse --show-toplevel [11ms]
+2024-10-09 12:42:47.412 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-09 12:46:46.354 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-09 12:46:46.354 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-09 13:02:48.977 [info] [main] Log level: Info
+2024-10-09 13:02:48.977 [info] [main] Validating found git in: "git"
+2024-10-09 13:02:48.977 [info] [main] Using git "2.46.2" from "git"
+2024-10-09 13:02:48.977 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-09 13:02:48.977 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-09 13:02:48.979 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-10-09 13:02:49.012 [info] [Model][openRepository] Opened repository: /home/kasene/pystuff/lowskies/WorstCoinFlipper
+2024-10-09 13:02:49.019 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-09 13:02:49.144 [info] > git config --get commit.template [36ms]
+2024-10-09 13:02:49.166 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-09 13:02:49.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-09 13:02:49.170 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:02:49.192 [info] > git status -z -uall [4ms]
+2024-10-09 13:02:49.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [35ms]
+2024-10-09 13:02:49.243 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:02:49.247 [info] > git config --get commit.template [6ms]
+2024-10-09 13:02:49.261 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-09 13:02:49.264 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-09 13:02:49.265 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:02:49.285 [info] > git status -z -uall [6ms]
+2024-10-09 13:02:49.307 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-10-09 13:02:49.307 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:02:49.663 [info] > git check-ignore -v -z --stdin [6ms]
+2024-10-09 13:02:49.710 [info] > git show --textconv :main.py [15ms]
+2024-10-09 13:02:49.722 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/WorstCoinFlipper/main.py [13ms]
+2024-10-09 13:03:29.292 [info] > git add -A -- /home/kasene/pystuff/lowskies/WorstCoinFlipper/main.py [5ms]
+2024-10-09 13:03:29.309 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-09 13:03:29.310 [info] > git config --get commit.template [7ms]
+2024-10-09 13:03:29.311 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-09 13:03:29.311 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:29.320 [info] > git status -z -uall [3ms]
+2024-10-09 13:03:29.332 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-09 13:03:29.333 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:30.386 [info] > git config --get commit.template [6ms]
+2024-10-09 13:03:30.397 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-09 13:03:30.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-09 13:03:30.399 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:30.411 [info] > git status -z -uall [1ms]
+2024-10-09 13:03:30.427 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-09 13:03:30.428 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:30.468 [info] > git add -A -- /home/kasene/pystuff/lowskies/WorstCoinFlipper/main.py.bak [17ms]
+2024-10-09 13:03:30.493 [info] > git config --get commit.template [12ms]
+2024-10-09 13:03:30.494 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-09 13:03:30.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-09 13:03:30.495 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:30.519 [info] > git status -z -uall [15ms]
+2024-10-09 13:03:30.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-09 13:03:30.532 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:30.533 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/WorstCoinFlipper/main.py [18ms]
+2024-10-09 13:03:30.546 [info] > git cat-file -s fb4d1f820c525940c10f1020ade8c58d57978c75 [3ms]
+2024-10-09 13:03:30.582 [info] > git show --textconv :main.py [4ms]
+2024-10-09 13:03:31.666 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/WorstCoinFlipper/main.py [3ms]
+2024-10-09 13:03:31.675 [info] > git cat-file -s fb4d1f820c525940c10f1020ade8c58d57978c75 [3ms]
+2024-10-09 13:03:31.692 [info] > git show --textconv :main.py [3ms]
+2024-10-09 13:03:34.538 [info] > git -c user.useConfigOnly=true commit --quiet [4ms]
+2024-10-09 13:03:34.538 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-10-09 13:03:34.548 [info] > git config --get-all user.name [3ms]
+2024-10-09 13:03:34.567 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-09 13:03:34.568 [info] > git config --get commit.template [10ms]
+2024-10-09 13:03:34.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-09 13:03:34.569 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:34.579 [info] > git status -z -uall [3ms]
+2024-10-09 13:03:34.596 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-10-09 13:03:34.596 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:37.841 [info] > git config --get commit.template [4ms]
+2024-10-09 13:03:37.860 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-09 13:03:37.862 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/WorstCoinFlipper/main.py [11ms]
+2024-10-09 13:03:37.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-10-09 13:03:37.871 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:37.880 [info] > git cat-file -s fb4d1f820c525940c10f1020ade8c58d57978c75 [10ms]
+2024-10-09 13:03:37.883 [info] > git status -z -uall [3ms]
+2024-10-09 13:03:37.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-09 13:03:37.897 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:37.911 [info] > git show --textconv :main.py [4ms]
+2024-10-09 13:03:42.917 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-09 13:03:42.918 [info] > git config --get commit.template [11ms]
+2024-10-09 13:03:42.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-09 13:03:42.920 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:42.930 [info] > git status -z -uall [2ms]
+2024-10-09 13:03:42.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-10-09 13:03:42.945 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:44.502 [info] > git -c user.useConfigOnly=true commit --quiet [4ms]
+2024-10-09 13:03:44.502 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-10-09 13:03:44.511 [info] > git config --get-all user.name [2ms]
+2024-10-09 13:03:44.527 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-09 13:03:44.528 [info] > git config --get commit.template [9ms]
+2024-10-09 13:03:44.528 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-09 13:03:44.529 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:03:44.539 [info] > git status -z -uall [3ms]
+2024-10-09 13:03:44.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-10-09 13:03:44.557 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:04:03.480 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-09 13:04:03.481 [info] > git config --get commit.template [8ms]
+2024-10-09 13:04:03.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-09 13:04:03.482 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:04:03.493 [info] > git status -z -uall [4ms]
+2024-10-09 13:04:03.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-10-09 13:04:03.509 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:04:03.576 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/WorstCoinFlipper/main.py [3ms]
+2024-10-09 13:04:03.589 [info] > git cat-file -s fb4d1f820c525940c10f1020ade8c58d57978c75 [3ms]
+2024-10-09 13:04:03.603 [info] > git show --textconv :main.py [4ms]
+2024-10-09 13:04:11.879 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-09 13:04:11.880 [info] > git config --get commit.template [8ms]
+2024-10-09 13:04:11.881 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-09 13:04:11.881 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:04:11.893 [info] > git status -z -uall [2ms]
+2024-10-09 13:04:11.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-09 13:04:11.906 [warning] [Git][getBranch] No such branch: master
+2024-10-09 13:04:11.976 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/WorstCoinFlipper/main.py [2ms]
+2024-10-09 13:04:11.988 [info] > git cat-file -s fb4d1f820c525940c10f1020ade8c58d57978c75 [3ms]
+2024-10-09 13:04:12.002 [info] > git show --textconv :main.py [4ms]

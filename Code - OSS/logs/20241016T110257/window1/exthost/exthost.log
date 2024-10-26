@@ -1,0 +1,14 @@
+2024-10-16 11:03:05.090 [info] Extension host with pid 104303 started
+2024-10-16 11:03:05.091 [info] Skipping acquiring lock for /home/kasene/.config/Code - OSS/User/workspaceStorage/f548aec21d555ad556cff0d636e51566.
+2024-10-16 11:03:05.745 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-16 11:03:05.783 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-10-16 11:03:06.410 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-16 11:03:06.419 [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime, startup: true, activationEvent: '*'
+2024-10-16 11:03:06.851 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-16 11:03:07.326 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-16 11:03:07.836 [info] Eager extensions activated
+2024-10-16 11:03:07.901 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 11:03:07.986 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 11:03:08.024 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-10-16 11:03:11.496 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-16 11:03:11.534 [info] Extension host with pid 104303 exiting with code 0

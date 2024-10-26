@@ -1,0 +1,64 @@
+2024-10-16 15:11:23.476 [info] Getting Manifest... editorconfig.editorconfig
+2024-10-16 15:11:23.477 [info] Getting Manifest... astro-build.astro-vscode
+2024-10-16 15:11:23.477 [info] Getting Manifest... clinyong.vscode-css-modules
+2024-10-16 15:11:23.478 [info] Getting Manifest... svelte.svelte-vscode
+2024-10-16 15:11:23.694 [info] Installing extension: editorconfig.editorconfig {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json","path":"/home/kasene/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.1","date":"2024-09-13T07:34:01.258Z"}}
+2024-10-16 15:11:23.695 [info] Installing extension: astro-build.astro-vscode {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json","path":"/home/kasene/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.1","date":"2024-09-13T07:34:01.258Z"}}
+2024-10-16 15:11:23.696 [info] Installing extension: svelte.svelte-vscode {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json","path":"/home/kasene/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.1","date":"2024-09-13T07:34:01.258Z"}}
+2024-10-16 15:11:23.696 [info] Installing extension: clinyong.vscode-css-modules {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json","path":"/home/kasene/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.1","date":"2024-09-13T07:34:01.258Z"}}
+2024-10-16 15:11:25.338 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+2024-10-16 15:11:25.339 [info] Extension signature verification is not done: editorconfig.editorconfig
+2024-10-16 15:11:26.022 [info] Extracted extension to file:///home/kasene/.vscode-oss/extensions/editorconfig.editorconfig-0.16.6-universal: editorconfig.editorconfig
+2024-10-16 15:11:26.031 [info] Renamed to /home/kasene/.vscode-oss/extensions/editorconfig.editorconfig-0.16.6-universal
+2024-10-16 15:11:26.202 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-10-16 15:11:26.416 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+2024-10-16 15:11:26.418 [info] Extension signature verification is not done: clinyong.vscode-css-modules
+2024-10-16 15:11:32.072 [info] Extracted extension to file:///home/kasene/.vscode-oss/extensions/clinyong.vscode-css-modules-0.5.1-universal: clinyong.vscode-css-modules
+2024-10-16 15:11:32.104 [info] Renamed to /home/kasene/.vscode-oss/extensions/clinyong.vscode-css-modules-0.5.1-universal
+2024-10-16 15:11:32.207 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-10-16 15:11:32.463 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+2024-10-16 15:11:32.464 [info] Extension signature verification is not done: astro-build.astro-vscode
+2024-10-16 15:11:33.832 [info] Extracted extension to file:///home/kasene/.vscode-oss/extensions/astro-build.astro-vscode-2.15.2-linux-x64: astro-build.astro-vscode
+2024-10-16 15:11:33.853 [info] Renamed to /home/kasene/.vscode-oss/extensions/astro-build.astro-vscode-2.15.2-linux-x64
+2024-10-16 15:11:33.971 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-10-16 15:11:40.687 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+2024-10-16 15:11:40.687 [info] Extension signature verification is not done: svelte.svelte-vscode
+2024-10-16 15:11:47.761 [info] Extracted extension to file:///home/kasene/.vscode-oss/extensions/svelte.svelte-vscode-109.0.3-universal: svelte.svelte-vscode
+2024-10-16 15:11:47.803 [info] Renamed to /home/kasene/.vscode-oss/extensions/svelte.svelte-vscode-109.0.3-universal
+2024-10-16 15:11:47.839 [info] Extension installed successfully: editorconfig.editorconfig vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json
+2024-10-16 15:11:47.840 [info] Extension installed successfully: clinyong.vscode-css-modules vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json
+2024-10-16 15:11:47.840 [info] Extension installed successfully: astro-build.astro-vscode vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json
+2024-10-16 15:11:47.841 [info] Extension installed successfully: svelte.svelte-vscode vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json
+2024-10-16 15:11:47.901 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)

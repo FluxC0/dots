@@ -1,0 +1,13 @@
+2024-10-18 11:01:22.227 [info] update#setState disabled
+2024-10-18 11:01:22.230 [info] update#ctor - updates are disabled as there is no update URL
+2024-10-18 11:01:31.397 [info] Extension host with pid 345329 exited with code: 0, signal: unknown.
+2024-10-18 11:01:31.417 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072266742000, signal: unknown
+2024-10-18 11:02:01.776 [info] Extension host with pid 345524 exited with code: 0, signal: unknown.
+2024-10-18 11:02:02.185 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072266742000, signal: unknown
+2024-10-18 11:02:02.777 [error] Extension host with pid 345524 still exists, forcefully killing it...
+2024-10-18 14:47:28.047 [info] Extension host with pid 345902 exited with code: 0, signal: unknown.
+2024-10-18 14:48:14.233 [info] Extension host with pid 351113 exited with code: 0, signal: unknown.
+2024-10-18 14:48:14.269 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072266742000, signal: unknown
+2024-10-19 08:05:55.432 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072266742000, signal: unknown
+2024-10-19 08:05:55.552 [error] Blocked vscode-file request vscode-file://vscode-app/usr/lib/code/out/vs/base/worker/workerMain.js#TextEditorWorker
+2024-10-19 08:05:55.621 [info] Extension host with pid 351419 exited with code: 0, signal: unknown.

@@ -1,0 +1,18 @@
+[2024-10-25 15:24:30.092][verbose] Chromium sandbox is enabled
+[2024-10-25 15:24:30.094][info] Running version 2024.5
+[2024-10-25 15:24:30.372][info] Detected locale: en-US
+[2024-10-25 15:24:30.615][info] Connected to the daemon
+[2024-10-25 15:24:31.129][info] Autoconnect the tunnel
+[2024-10-25 15:24:31.134][info] Showing notification icon: "Update available. Install the latest app version to stay up to date"
+[2024-10-25 16:01:31.412][info] Suspend event received, disconnecting from daemon
+[2024-10-25 16:01:31.415][verbose] GRPC Channel connectivity state changed to 4
+[2024-10-25 16:01:31.456][info] Disconnected from the daemon
+[2024-10-25 16:01:31.466][info] Suspend event received, disconnecting from daemon
+[2024-10-25 16:01:31.467][info] Disconnected from the daemon
+[2024-10-25 22:42:33.537][info] Resume event received, connecting to daemon
+[2024-10-25 22:42:33.548][info] Resume event received, connecting to daemon
+[2024-10-25 22:42:33.551][info] Connected to the daemon
+[2024-10-25 22:42:33.557][info] Connected to the daemon
+[2024-10-25 22:42:34.390][warning] Failed to update device info: 14 UNAVAILABLE: Cannot reach the API
+[2024-10-25 22:42:34.391][warning] Failed to fetch account data. Retrying in 8000 ms
+[2024-10-25 22:42:34.402][warning] Failed to fetch account data. Retrying in 8000 ms

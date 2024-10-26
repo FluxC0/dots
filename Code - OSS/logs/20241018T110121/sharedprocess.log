@@ -1,0 +1,33 @@
+2024-10-18 11:01:27.013 [info] Deleted uninstalled extension from disk astro-build.astro-vscode /home/kasene/.vscode-oss/extensions/astro-build.astro-vscode-2.15.2-linux-x64
+2024-10-18 14:57:46.714 [info] Getting Manifest... ericsia.pythonsnippets3
+2024-10-18 14:57:46.942 [info] Installing extension: ericsia.pythonsnippets3 {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json","path":"/home/kasene/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.1","date":"2024-09-13T07:34:01.258Z"}}
+2024-10-18 14:57:48.457 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+2024-10-18 14:57:48.458 [info] Extension signature verification is not done: ericsia.pythonsnippets3
+2024-10-18 14:57:48.558 [info] Extracted extension to file:///home/kasene/.vscode-oss/extensions/ericsia.pythonsnippets3-3.3.18-universal: ericsia.pythonsnippets3
+2024-10-18 14:57:48.571 [info] Renamed to /home/kasene/.vscode-oss/extensions/ericsia.pythonsnippets3-3.3.18-universal
+2024-10-18 14:57:48.610 [info] Extension installed successfully: ericsia.pythonsnippets3 vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json
+2024-10-18 14:57:49.574 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)
+2024-10-18 14:57:49.639 [info] Getting Manifest... magicstack.magicpython
+2024-10-18 14:57:49.799 [info] Installing extension: magicstack.magicpython {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json","path":"/home/kasene/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.1","date":"2024-09-13T07:34:01.258Z"}}
+2024-10-18 14:57:51.047 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+2024-10-18 14:57:51.047 [info] Extension signature verification is not done: magicstack.magicpython
+2024-10-18 14:57:51.772 [info] Extracted extension to file:///home/kasene/.vscode-oss/extensions/magicstack.magicpython-1.1.1-universal: magicstack.magicpython
+2024-10-18 14:57:51.782 [info] Renamed to /home/kasene/.vscode-oss/extensions/magicstack.magicpython-1.1.1-universal
+2024-10-18 14:57:51.817 [info] Extension installed successfully: magicstack.magicpython vscode-userdata:/home/kasene/.vscode-oss/extensions/extensions.json
+2024-10-18 14:57:51.869 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kasene/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)

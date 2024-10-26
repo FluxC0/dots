@@ -1,0 +1,39 @@
+<application>
+  <component name="SshLocalRecentConnectionsManager">
+    <option name="connections">
+      <list>
+        <LocalRecentConnectionState>
+          <option name="configId" value="528f0bc8-2cc8-4fa8-bf6c-0e5ffa8f94c2" />
+          <option name="projects">
+            <list>
+              <RecentProjectState>
+                <option name="date" value="1720058203427" />
+                <option name="latestUsedIde">
+                  <RecentProjectInstalledIde>
+                    <option name="buildNumber" value="242.16677.23" />
+                    <option name="pathToIde" value="/home/server/.cache/JetBrains/RemoteDev/dist/b85f86272d010_PhpStorm-242.16677.23" />
+                    <option name="productCode" value="PS" />
+                  </RecentProjectInstalledIde>
+                </option>
+                <option name="productCode" value="PS" />
+                <option name="projectPath" value="/home/server/temp-data" />
+              </RecentProjectState>
+              <RecentProjectState>
+                <option name="date" value="1718675523682" />
+                <option name="latestUsedIde">
+                  <RecentProjectInstalledIde>
+                    <option name="buildNumber" value="242.16677.23" />
+                    <option name="pathToIde" value="/home/server/.cache/JetBrains/RemoteDev/dist/b85f86272d010_PhpStorm-242.16677.23" />
+                    <option name="productCode" value="PS" />
+                  </RecentProjectInstalledIde>
+                </option>
+                <option name="productCode" value="PS" />
+                <option name="projectPath" value="/home/server/plugins'" />
+              </RecentProjectState>
+            </list>
+          </option>
+        </LocalRecentConnectionState>
+      </list>
+    </option>
+  </component>
+</application>

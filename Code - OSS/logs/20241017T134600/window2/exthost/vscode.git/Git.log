@@ -1,0 +1,508 @@
+2024-10-17 13:46:19.073 [info] [main] Log level: Info
+2024-10-17 13:46:19.073 [info] [main] Validating found git in: "git"
+2024-10-17 13:46:19.073 [info] [main] Using git "2.46.2" from "git"
+2024-10-17 13:46:19.073 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-17 13:46:19.073 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-17 13:46:54.243 [info] [main] Log level: Info
+2024-10-17 13:46:54.243 [info] [main] Validating found git in: "git"
+2024-10-17 13:46:54.243 [info] [main] Using git "2.46.2" from "git"
+2024-10-17 13:46:54.243 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-17 13:46:54.243 [info] > git rev-parse --show-toplevel [39ms]
+2024-10-17 13:46:54.243 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-17 13:46:54.243 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-17 13:46:54.731 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-17 13:46:54.732 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-17 13:47:14.682 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-17 13:47:14.693 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-10-17 13:47:14.722 [info] [Model][openRepository] Opened repository: /home/kasene/pystuff/lowskies/zip'r
+2024-10-17 13:47:14.738 [info] > git config --get commit.template [3ms]
+2024-10-17 13:47:14.750 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 13:47:14.751 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 13:47:14.752 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:47:14.767 [info] > git status -z -uall [5ms]
+2024-10-17 13:47:14.818 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [39ms]
+2024-10-17 13:47:14.818 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:47:14.856 [info] > git config --get commit.template [39ms]
+2024-10-17 13:47:14.865 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 13:47:14.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 13:47:14.868 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:47:14.880 [info] > git status -z -uall [5ms]
+2024-10-17 13:47:14.891 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 13:47:14.891 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:47:15.319 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-17 13:49:38.009 [info] > git check-ignore -v -z --stdin [25ms]
+2024-10-17 13:49:38.549 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 13:49:38.551 [info] > git config --get commit.template [9ms]
+2024-10-17 13:49:38.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-17 13:49:38.551 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:49:38.562 [info] > git status -z -uall [3ms]
+2024-10-17 13:49:38.572 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 13:49:38.572 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:49:44.096 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-17 13:49:44.661 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 13:49:44.663 [info] > git config --get commit.template [10ms]
+2024-10-17 13:49:44.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 13:49:44.664 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:49:44.673 [info] > git status -z -uall [2ms]
+2024-10-17 13:49:44.684 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 13:49:44.684 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:49:59.244 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-17 13:49:59.806 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 13:49:59.807 [info] > git config --get commit.template [9ms]
+2024-10-17 13:49:59.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-17 13:49:59.808 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:49:59.818 [info] > git status -z -uall [3ms]
+2024-10-17 13:49:59.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 13:49:59.830 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:50:08.668 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 13:50:08.669 [info] > git config --get commit.template [8ms]
+2024-10-17 13:50:08.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-17 13:50:08.670 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:50:08.679 [info] > git status -z -uall [3ms]
+2024-10-17 13:50:08.689 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 13:50:08.689 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:50:17.003 [info] > git check-ignore -v -z --stdin [41ms]
+2024-10-17 13:50:17.005 [info] > git show --textconv :cogs/mod/kick.py [26ms]
+2024-10-17 13:50:17.005 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/cogs/mod/kick.py [6ms]
+2024-10-17 13:50:17.472 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 13:50:17.473 [info] > git config --get commit.template [9ms]
+2024-10-17 13:50:17.474 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-17 13:50:17.474 [warning] [Git][getBranch] No such branch: master
+2024-10-17 13:50:17.484 [info] > git status -z -uall [3ms]
+2024-10-17 13:50:17.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 13:50:17.496 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:23:54.014 [info] > git config --get commit.template [4ms]
+2024-10-17 14:23:54.037 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 14:23:54.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:23:54.039 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:23:54.048 [info] > git status -z -uall [3ms]
+2024-10-17 14:23:54.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:23:54.060 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:23:54.139 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-17 14:23:58.305 [info] > git show --textconv :pyproject.toml [9ms]
+2024-10-17 14:23:58.308 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/pyproject.toml [4ms]
+2024-10-17 14:24:01.746 [info] > git show --textconv :main.py [8ms]
+2024-10-17 14:24:01.748 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:25:03.061 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 14:25:03.062 [info] > git config --get commit.template [7ms]
+2024-10-17 14:25:03.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-10-17 14:25:03.069 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:25:03.076 [info] > git check-ignore -v -z --stdin [8ms]
+2024-10-17 14:25:03.078 [info] > git status -z -uall [3ms]
+2024-10-17 14:25:03.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-10-17 14:25:03.092 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:25:29.102 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 14:25:29.103 [info] > git config --get commit.template [9ms]
+2024-10-17 14:25:29.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-17 14:25:29.104 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:25:29.119 [info] > git status -z -uall [3ms]
+2024-10-17 14:25:29.133 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-10-17 14:25:29.133 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:27:09.130 [info] > git show --textconv :cogs/__init__.py [8ms]
+2024-10-17 14:27:09.132 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/cogs/__init__.py [3ms]
+2024-10-17 14:27:09.370 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-17 14:27:10.014 [info] > git config --get commit.template [2ms]
+2024-10-17 14:27:10.020 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 14:27:10.022 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-17 14:27:10.022 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:27:10.030 [info] > git status -z -uall [3ms]
+2024-10-17 14:27:10.043 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:27:10.043 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:27:42.535 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 14:27:42.537 [info] > git config --get commit.template [12ms]
+2024-10-17 14:27:42.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:27:42.537 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:27:42.565 [info] > git status -z -uall [3ms]
+2024-10-17 14:27:42.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-10-17 14:27:42.579 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:27:47.627 [info] > git show --textconv :.env [19ms]
+2024-10-17 14:27:47.627 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/.env [1ms]
+2024-10-17 14:27:53.398 [info] > git show --textconv :main.py [8ms]
+2024-10-17 14:27:53.400 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:28:07.978 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-17 14:28:07.978 [info] > git config --get commit.template [11ms]
+2024-10-17 14:28:07.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:28:07.981 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:28:07.992 [info] > git status -z -uall [4ms]
+2024-10-17 14:28:08.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:28:08.006 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:28:08.561 [info] > git show --textconv :pyproject.toml [16ms]
+2024-10-17 14:28:08.563 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/pyproject.toml [3ms]
+2024-10-17 14:29:57.603 [info] > git show --textconv :main.py [9ms]
+2024-10-17 14:29:57.605 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [4ms]
+2024-10-17 14:32:08.775 [info] > git config --get commit.template [2ms]
+2024-10-17 14:32:08.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:32:08.786 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:08.794 [info] > git status -z -uall [2ms]
+2024-10-17 14:32:08.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:32:08.808 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:08.876 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [2ms]
+2024-10-17 14:32:08.890 [info] > git show --textconv :main.py [2ms]
+2024-10-17 14:32:11.686 [info] > git add -A -- /home/kasene/pystuff/lowskies/zip'r/.env /home/kasene/pystuff/lowskies/zip'r/cogs/__init__.py /home/kasene/pystuff/lowskies/zip'r/cogs/mod/kick.py /home/kasene/pystuff/lowskies/zip'r/main.py /home/kasene/pystuff/lowskies/zip'r/poetry.lock /home/kasene/pystuff/lowskies/zip'r/pyproject.toml [10ms]
+2024-10-17 14:32:11.703 [info] > git config --get commit.template [9ms]
+2024-10-17 14:32:11.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:32:11.705 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:11.714 [info] > git status -z -uall [2ms]
+2024-10-17 14:32:11.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:32:11.727 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:12.867 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [2ms]
+2024-10-17 14:32:12.875 [info] > git cat-file -s 96c8636c7c5536e950834293292cc6bfae1e6ff9 [3ms]
+2024-10-17 14:32:12.886 [info] > git show --textconv :main.py [3ms]
+2024-10-17 14:32:13.826 [info] > git config --get commit.template [10ms]
+2024-10-17 14:32:13.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-17 14:32:13.828 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:13.839 [info] > git status -z -uall [3ms]
+2024-10-17 14:32:13.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:32:13.853 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:17.937 [info] > git add -A -- /home/kasene/pystuff/lowskies/zip'r/cogs/mod/kick.py /home/kasene/pystuff/lowskies/zip'r/main.py /home/kasene/pystuff/lowskies/zip'r/.env [7ms]
+2024-10-17 14:32:17.960 [info] > git config --get commit.template [9ms]
+2024-10-17 14:32:17.963 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:32:17.963 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:17.983 [info] > git status -z -uall [12ms]
+2024-10-17 14:32:18.019 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [7ms]
+2024-10-17 14:32:18.019 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-10-17 14:32:18.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [34ms]
+2024-10-17 14:32:18.027 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:18.031 [info] > git config --get-all user.name [4ms]
+2024-10-17 14:32:18.054 [info] > git config --get commit.template [11ms]
+2024-10-17 14:32:18.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:32:18.057 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:18.070 [info] > git status -z -uall [4ms]
+2024-10-17 14:32:18.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-10-17 14:32:18.091 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:19.689 [info] > git config --get commit.template [15ms]
+2024-10-17 14:32:19.694 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [7ms]
+2024-10-17 14:32:19.719 [info] > git cat-file -s db12ba985ccefd493901edcdde7e52a55dd270c7 [15ms]
+2024-10-17 14:32:19.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-10-17 14:32:19.723 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:19.746 [info] > git status -z -uall [14ms]
+2024-10-17 14:32:19.761 [info] > git show --textconv :main.py [15ms]
+2024-10-17 14:32:19.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-10-17 14:32:19.761 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:30.060 [info] > git config --get commit.template [9ms]
+2024-10-17 14:32:30.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:32:30.060 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:30.072 [info] > git status -z -uall [3ms]
+2024-10-17 14:32:30.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:32:30.085 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:30.150 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:32:30.160 [info] > git cat-file -s db12ba985ccefd493901edcdde7e52a55dd270c7 [3ms]
+2024-10-17 14:32:30.173 [info] > git show --textconv :main.py [3ms]
+2024-10-17 14:32:39.552 [info] > git config --get commit.template [9ms]
+2024-10-17 14:32:39.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-17 14:32:39.553 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:39.563 [info] > git status -z -uall [2ms]
+2024-10-17 14:32:39.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:32:39.574 [warning] [Git][getBranch] No such branch: master
+2024-10-17 14:32:39.647 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:32:39.655 [info] > git cat-file -s db12ba985ccefd493901edcdde7e52a55dd270c7 [3ms]
+2024-10-17 14:32:39.668 [info] > git show --textconv :main.py [3ms]
+2024-10-17 14:32:40.717 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [30ms]
+2024-10-17 14:32:40.729 [info] > git config --get commit.template [3ms]
+2024-10-17 14:32:40.748 [info] > git config --get commit.template [10ms]
+2024-10-17 14:32:40.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-17 14:32:40.764 [info] > git status -z -uall [4ms]
+2024-10-17 14:32:40.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-10-17 14:32:40.797 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:32:40.798 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:32:40.813 [info] > git reflog master --grep-reflog=branch: Created from *. [8ms]
+2024-10-17 14:32:40.824 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-17 14:32:40.824 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:32:40.984 [info] > git config --get commit.template [11ms]
+2024-10-17 14:32:41.000 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full a9931336dfe766413eb290bbf163d5f3324460b4 [17ms]
+2024-10-17 14:32:41.012 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-10-17 14:32:41.030 [info] > git status -z -uall [7ms]
+2024-10-17 14:32:41.050 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-10-17 14:32:41.067 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:32:41.067 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:32:41.101 [info] > git reflog master --grep-reflog=branch: Created from *. [22ms]
+2024-10-17 14:32:41.111 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-17 14:32:41.111 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:32:41.922 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:32:41.931 [info] > git cat-file -s db12ba985ccefd493901edcdde7e52a55dd270c7 [3ms]
+2024-10-17 14:32:41.944 [info] > git show --textconv :main.py [4ms]
+2024-10-17 14:32:48.880 [info] > git push -u origin master [5829ms]
+2024-10-17 14:32:48.880 [info] Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-10-17 14:32:51.774 [info] > git config --get commit.template [22ms]
+2024-10-17 14:32:51.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:32:51.787 [info] > git status -z -uall [3ms]
+2024-10-17 14:32:51.804 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-10-17 14:32:51.818 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:32:51.818 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:32:51.835 [info] > git reflog master --grep-reflog=branch: Created from *. [9ms]
+2024-10-17 14:32:51.848 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-10-17 14:32:51.848 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:37:53.771 [info] > git config --get commit.template [13ms]
+2024-10-17 14:37:53.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:37:53.784 [info] > git status -z -uall [3ms]
+2024-10-17 14:37:53.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-10-17 14:37:53.811 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:37:53.811 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:37:53.827 [info] > git reflog master --grep-reflog=branch: Created from *. [6ms]
+2024-10-17 14:37:53.837 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-17 14:37:53.837 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:37:53.856 [info] > git merge-base refs/heads/master refs/remotes/origin/master [10ms]
+2024-10-17 14:37:53.867 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full a9931336dfe766413eb290bbf163d5f3324460b4 [13ms]
+2024-10-17 14:37:53.870 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [5ms]
+2024-10-17 14:37:53.882 [info] > git diff --name-status -z --diff-filter=ADMR a9931336dfe766413eb290bbf163d5f3324460b4...refs/remotes/origin/master [4ms]
+2024-10-17 14:38:55.627 [info] > git config --get commit.template [12ms]
+2024-10-17 14:38:55.628 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:38:55.656 [info] > git cat-file -s db12ba985ccefd493901edcdde7e52a55dd270c7 [16ms]
+2024-10-17 14:38:55.658 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-10-17 14:38:55.683 [info] > git show --textconv :main.py [13ms]
+2024-10-17 14:38:55.691 [info] > git status -z -uall [9ms]
+2024-10-17 14:38:55.703 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:38:55.718 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:38:55.718 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:38:55.732 [info] > git reflog master --grep-reflog=branch: Created from *. [6ms]
+2024-10-17 14:38:55.741 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-17 14:38:55.741 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:39:30.465 [info] > git config --get commit.template [2ms]
+2024-10-17 14:39:30.474 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:39:30.486 [info] > git status -z -uall [4ms]
+2024-10-17 14:39:30.502 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:39:30.513 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:39:30.513 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:39:30.528 [info] > git reflog master --grep-reflog=branch: Created from *. [7ms]
+2024-10-17 14:39:30.538 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-17 14:39:30.538 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:40:25.672 [info] > git config --get commit.template [12ms]
+2024-10-17 14:40:25.673 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:40:25.685 [info] > git status -z -uall [5ms]
+2024-10-17 14:40:25.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:40:25.708 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-10-17 14:40:25.709 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:40:25.722 [info] > git reflog master --grep-reflog=branch: Created from *. [5ms]
+2024-10-17 14:40:25.730 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-17 14:40:25.730 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:40:31.591 [info] > git config --get commit.template [8ms]
+2024-10-17 14:40:31.594 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:40:31.605 [info] > git status -z -uall [3ms]
+2024-10-17 14:40:31.618 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:40:31.629 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2024-10-17 14:40:31.629 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:40:31.645 [info] > git reflog master --grep-reflog=branch: Created from *. [8ms]
+2024-10-17 14:40:31.655 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-17 14:40:31.655 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:40:31.685 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:40:31.694 [info] > git cat-file -s db12ba985ccefd493901edcdde7e52a55dd270c7 [2ms]
+2024-10-17 14:40:31.707 [info] > git show --textconv :main.py [3ms]
+2024-10-17 14:40:32.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-10-17 14:40:32.741 [info] > git config --get commit.template [20ms]
+2024-10-17 14:40:32.753 [info] > git status -z -uall [3ms]
+2024-10-17 14:40:32.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:40:32.780 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:40:32.781 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:40:32.804 [info] > git reflog master --grep-reflog=branch: Created from *. [14ms]
+2024-10-17 14:40:32.812 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-17 14:40:32.812 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:40:33.856 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:40:33.866 [info] > git cat-file -s db12ba985ccefd493901edcdde7e52a55dd270c7 [2ms]
+2024-10-17 14:40:33.881 [info] > git show --textconv :main.py [2ms]
+2024-10-17 14:40:56.838 [info] > git config --get commit.template [16ms]
+2024-10-17 14:40:56.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:40:56.852 [info] > git status -z -uall [4ms]
+2024-10-17 14:40:56.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-10-17 14:40:56.884 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2024-10-17 14:40:56.884 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:40:56.899 [info] > git reflog master --grep-reflog=branch: Created from *. [6ms]
+2024-10-17 14:40:56.910 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-17 14:40:56.910 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:40:57.785 [info] > git config --get commit.template [11ms]
+2024-10-17 14:40:57.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:40:57.801 [info] > git status -z -uall [4ms]
+2024-10-17 14:40:57.815 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:40:57.830 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:40:57.830 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:40:57.850 [info] > git reflog master --grep-reflog=branch: Created from *. [10ms]
+2024-10-17 14:40:57.861 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-17 14:40:57.861 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:41:15.515 [info] > git config --get commit.template [13ms]
+2024-10-17 14:41:15.518 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:41:15.532 [info] > git status -z -uall [5ms]
+2024-10-17 14:41:15.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:41:15.556 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:41:15.556 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:41:15.572 [info] > git reflog master --grep-reflog=branch: Created from *. [7ms]
+2024-10-17 14:41:15.581 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-17 14:41:15.581 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:42:34.595 [info] > git config --get commit.template [8ms]
+2024-10-17 14:42:34.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:42:34.608 [info] > git status -z -uall [3ms]
+2024-10-17 14:42:34.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:42:34.633 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:42:34.633 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:42:34.646 [info] > git reflog master --grep-reflog=branch: Created from *. [5ms]
+2024-10-17 14:42:34.655 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-17 14:42:34.655 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:42:51.186 [info] > git config --get commit.template [11ms]
+2024-10-17 14:42:51.196 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [10ms]
+2024-10-17 14:42:51.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-10-17 14:42:51.217 [info] > git cat-file -s 086ee4264b7fb50bd97f151a120773a3d83d14c0 [12ms]
+2024-10-17 14:42:51.221 [info] > git status -z -uall [5ms]
+2024-10-17 14:42:51.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:42:51.262 [info] > git config --local branch.master.vscode-merge-base [12ms]
+2024-10-17 14:42:51.262 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:42:51.273 [info] > git show --textconv :main.py [14ms]
+2024-10-17 14:42:51.281 [info] > git reflog master --grep-reflog=branch: Created from *. [9ms]
+2024-10-17 14:42:51.295 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-17 14:42:51.295 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:42:58.725 [info] > git config --get commit.template [2ms]
+2024-10-17 14:42:58.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:42:58.751 [info] > git status -z -uall [4ms]
+2024-10-17 14:42:58.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-10-17 14:42:58.773 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-10-17 14:42:58.773 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:42:58.786 [info] > git reflog master --grep-reflog=branch: Created from *. [6ms]
+2024-10-17 14:42:58.795 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-17 14:42:58.795 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:42:58.805 [info] > git merge-base refs/heads/master refs/remotes/origin/master [2ms]
+2024-10-17 14:42:58.815 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [2ms]
+2024-10-17 14:42:58.826 [info] > git diff --name-status -z --diff-filter=ADMR a9931336dfe766413eb290bbf163d5f3324460b4...refs/remotes/origin/master [3ms]
+2024-10-17 14:42:59.849 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:42:59.858 [info] > git cat-file -s 086ee4264b7fb50bd97f151a120773a3d83d14c0 [3ms]
+2024-10-17 14:42:59.882 [info] > git show --textconv :main.py [6ms]
+2024-10-17 14:43:03.131 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full a4f496be0892df695a8047c889323608413fe727 a9931336dfe766413eb290bbf163d5f3324460b4 [25ms]
+2024-10-17 14:43:03.158 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full a4f496be0892df695a8047c889323608413fe727 a9931336dfe766413eb290bbf163d5f3324460b4 [6ms]
+2024-10-17 14:43:06.107 [info] > git log --oneline --cherry master...master@{upstream} -- [4ms]
+2024-10-17 14:43:07.325 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [2ms]
+2024-10-17 14:43:07.334 [info] > git cat-file -s 086ee4264b7fb50bd97f151a120773a3d83d14c0 [2ms]
+2024-10-17 14:43:07.346 [info] > git show --textconv :main.py [3ms]
+2024-10-17 14:43:07.847 [info] > git pull --tags origin master [1727ms]
+2024-10-17 14:43:07.847 [info] From github.com:W4RPSPEED/Z4PR
+ * branch            master     -> FETCH_HEAD
+2024-10-17 14:43:09.087 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:43:09.098 [info] > git cat-file -s 086ee4264b7fb50bd97f151a120773a3d83d14c0 [3ms]
+2024-10-17 14:43:09.110 [info] > git show --textconv :main.py [2ms]
+2024-10-17 14:43:09.629 [info] > git push origin master:master [1773ms]
+2024-10-17 14:43:09.629 [info] To github.com:W4RPSPEED/Z4PR.git
+   a993133..a4f496b  master -> master
+2024-10-17 14:43:09.647 [info] > git config --get commit.template [8ms]
+2024-10-17 14:43:09.649 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:43:09.661 [info] > git status -z -uall [3ms]
+2024-10-17 14:43:09.683 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-10-17 14:43:09.697 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:43:09.697 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:43:09.717 [info] > git reflog master --grep-reflog=branch: Created from *. [8ms]
+2024-10-17 14:43:09.728 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-17 14:43:09.728 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:43:09.742 [info] > git merge-base refs/heads/master refs/remotes/origin/master [4ms]
+2024-10-17 14:43:09.764 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [12ms]
+2024-10-17 14:43:09.777 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full a4f496be0892df695a8047c889323608413fe727 [14ms]
+2024-10-17 14:43:09.805 [info] > git diff --name-status -z --diff-filter=ADMR a4f496be0892df695a8047c889323608413fe727...refs/remotes/origin/master [30ms]
+2024-10-17 14:44:54.734 [info] > git config --get commit.template [9ms]
+2024-10-17 14:44:54.737 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:44:54.748 [info] > git status -z -uall [4ms]
+2024-10-17 14:44:54.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-17 14:44:54.772 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-10-17 14:44:54.772 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:44:54.786 [info] > git reflog master --grep-reflog=branch: Created from *. [6ms]
+2024-10-17 14:44:54.796 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-10-17 14:44:54.796 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-17 14:45:12.309 [info] > git config --get commit.template [3ms]
+2024-10-17 14:45:12.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-17 14:45:12.337 [info] > git status -z -uall [7ms]
+2024-10-17 14:45:12.352 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-17 14:45:12.366 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-17 14:45:12.366 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-17 14:45:12.380 [info] > git reflog main --grep-reflog=branch: Created from *. [5ms]
+2024-10-17 14:45:12.395 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to main [7ms]
+2024-10-17 14:45:12.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-17 14:45:12.416 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/master [3ms]
+2024-10-17 14:45:12.428 [info] > git config --local branch.main.vscode-merge-base origin/master [4ms]
+2024-10-17 14:45:12.447 [info] > git config --get commit.template [12ms]
+2024-10-17 14:45:12.449 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-17 14:45:12.460 [info] > git status -z -uall [4ms]
+2024-10-17 14:45:12.471 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-17 14:45:12.482 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-17 14:45:12.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-10-17 14:45:12.523 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full a4f496be0892df695a8047c889323608413fe727 [6ms]
+2024-10-17 14:45:13.576 [info] > git config --get commit.template [9ms]
+2024-10-17 14:45:13.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-17 14:45:13.589 [info] > git status -z -uall [4ms]
+2024-10-17 14:45:13.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-17 14:45:13.611 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-17 14:45:13.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-10-17 14:45:13.668 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [2ms]
+2024-10-17 14:45:13.677 [info] > git cat-file -s 086ee4264b7fb50bd97f151a120773a3d83d14c0 [2ms]
+2024-10-17 14:45:13.688 [info] > git show --textconv :main.py [3ms]
+2024-10-17 14:45:23.771 [info] > git config --get commit.template [11ms]
+2024-10-17 14:45:23.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-17 14:45:23.783 [info] > git status -z -uall [3ms]
+2024-10-17 14:45:23.794 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-17 14:45:23.803 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-17 14:45:23.815 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-10-17 14:45:23.865 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:45:23.872 [info] > git cat-file -s 086ee4264b7fb50bd97f151a120773a3d83d14c0 [2ms]
+2024-10-17 14:45:23.885 [info] > git show --textconv :main.py [3ms]
+2024-10-17 14:45:25.497 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:45:25.504 [info] > git cat-file -s 086ee4264b7fb50bd97f151a120773a3d83d14c0 [2ms]
+2024-10-17 14:45:25.515 [info] > git show --textconv :main.py [3ms]
+2024-10-17 14:45:28.812 [info] > git config --get commit.template [11ms]
+2024-10-17 14:45:28.813 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-17 14:45:28.826 [info] > git status -z -uall [4ms]
+2024-10-17 14:45:28.839 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-17 14:45:28.848 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-17 14:45:28.859 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-10-17 14:45:38.622 [info] > git config --get commit.template [8ms]
+2024-10-17 14:45:38.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-17 14:45:38.636 [info] > git status -z -uall [4ms]
+2024-10-17 14:45:38.650 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-17 14:45:38.660 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-17 14:45:38.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-10-17 14:45:38.695 [info] > git merge-base refs/heads/main refs/remotes/origin/master [13ms]
+2024-10-17 14:45:38.706 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full a4f496be0892df695a8047c889323608413fe727 [13ms]
+2024-10-17 14:45:38.709 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/master [3ms]
+2024-10-17 14:45:38.723 [info] > git diff --name-status -z --diff-filter=ADMR a4f496be0892df695a8047c889323608413fe727...refs/remotes/origin/master [4ms]
+2024-10-17 14:45:39.677 [info] > git config --get commit.template [8ms]
+2024-10-17 14:45:39.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-17 14:45:39.690 [info] > git status -z -uall [3ms]
+2024-10-17 14:45:39.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-17 14:45:39.715 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-17 14:45:39.725 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-10-17 14:45:39.774 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [3ms]
+2024-10-17 14:45:39.783 [info] > git cat-file -s 086ee4264b7fb50bd97f151a120773a3d83d14c0 [3ms]
+2024-10-17 14:45:39.802 [info] > git show --textconv :main.py [4ms]
+2024-10-17 14:45:41.810 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [2ms]
+2024-10-17 14:45:41.817 [info] > git cat-file -s 086ee4264b7fb50bd97f151a120773a3d83d14c0 [2ms]
+2024-10-17 14:45:41.829 [info] > git show --textconv :main.py [2ms]
+2024-10-17 14:45:42.427 [info] > git config --get commit.template [11ms]
+2024-10-17 14:45:42.429 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-17 14:45:42.441 [info] > git status -z -uall [4ms]
+2024-10-17 14:45:42.459 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-10-17 14:45:42.475 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-17 14:45:42.486 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-10-17 14:45:43.417 [info] > git ls-files --stage -- /home/kasene/pystuff/lowskies/zip'r/main.py [2ms]
+2024-10-17 14:45:43.425 [info] > git cat-file -s 086ee4264b7fb50bd97f151a120773a3d83d14c0 [2ms]
+2024-10-17 14:45:43.435 [info] > git show --textconv :main.py [3ms]
+2024-10-17 14:45:44.720 [info] > git config --get commit.template [7ms]
+2024-10-17 14:45:44.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-17 14:45:44.732 [info] > git status -z -uall [3ms]
+2024-10-17 14:45:44.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-17 14:45:44.757 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-17 14:45:44.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-10-17 14:46:37.040 [info] > git config --get commit.template [15ms]
+2024-10-17 14:46:37.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-17 14:46:37.056 [info] > git status -z -uall [6ms]
+2024-10-17 14:46:37.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-10-17 14:46:37.099 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-17 14:46:37.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]

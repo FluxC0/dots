@@ -1,0 +1,7 @@
+2024-10-17 13:46:16.146 [info] Started local extension host with pid 21146.
+2024-10-17 13:46:21.422 [info] [perf] Render performance baseline is 142ms
+2024-10-17 13:46:23.332 [error] Unknown error while installing extension astro-build.astro-vscode: Unknown: Unknown error while installing extension astro-build.astro-vscode
+    at W.installFromGallery (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:61657)
+2024-10-17 13:46:52.252 [info] Started local extension host with pid 22207.
+2024-10-17 13:46:55.354 [info] [perf] Render performance baseline is 70ms
+2024-10-18 08:18:41.374 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/kasene/pystuff/lowskies/zip%27r/main.py 

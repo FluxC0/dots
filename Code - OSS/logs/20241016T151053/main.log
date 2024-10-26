@@ -1,0 +1,5 @@
+2024-10-16 15:10:53.659 [info] update#setState disabled
+2024-10-16 15:10:53.664 [info] update#ctor - updates are disabled as there is no update URL
+2024-10-16 16:03:28.331 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-17 10:51:24.580 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072277895000, signal: unknown
+2024-10-17 10:51:24.763 [info] Extension host with pid 2563 exited with code: 0, signal: unknown.

@@ -1,0 +1,16 @@
+com.intellij.ja
+com.intellij.ko
+com.intellij.plugins.all_hallows_eve.colorscheme
+com.intellij.plugins.blackboard.colorscheme
+com.intellij.plugins.cobalt.colorscheme
+com.intellij.plugins.eclipsekeymap
+com.intellij.plugins.github.colorscheme
+com.intellij.plugins.monokai.colorscheme
+com.intellij.plugins.netbeanskeymap
+com.intellij.plugins.rails_casts.colorscheme
+com.intellij.plugins.twilight.colorscheme
+com.intellij.plugins.vibrantink.colorscheme
+com.intellij.plugins.visualstudiokeymap
+com.intellij.plugins.vscodekeymap
+com.intellij.plugins.warmneon.colorscheme
+com.intellij.zh

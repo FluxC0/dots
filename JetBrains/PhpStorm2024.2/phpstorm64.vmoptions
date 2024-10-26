@@ -1,0 +1,4 @@
+-Xmx750m
+-Dide.managed.by.toolbox=/home/kasene/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox
+-Dtoolbox.notification.token=ef10350b-9358-4474-9e3b-2e76d7c98cce
+-Dtoolbox.notification.portFile=/home/kasene/.cache/JetBrains/Toolbox/ports/2adda73b-4a8a-4076-94d6-1de02e25212b.port

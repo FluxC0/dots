@@ -1,0 +1,9 @@
+2024-10-16 11:02:57.987 [info] update#setState disabled
+2024-10-16 11:02:58.027 [info] update#ctor - updates are disabled as there is no update URL
+2024-10-16 11:03:11.648 [info] Extension host with pid 104303 exited with code: 0, signal: unknown.
+2024-10-16 11:03:12.037 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072266742000, signal: unknown
+2024-10-16 11:04:45.004 [info] Extension host with pid 104457 exited with code: 0, signal: unknown.
+2024-10-16 11:38:32.791 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-16 11:43:30.511 [info] Extension host with pid 105053 exited with code: 0, signal: unknown.
+2024-10-16 11:43:31.076 [error] [UtilityProcessWorker]: terminated unexpectedly with code 18446744072266742000, signal: unknown
+2024-10-16 11:43:31.591 [error] Extension host with pid 105053 still exists, forcefully killing it...
